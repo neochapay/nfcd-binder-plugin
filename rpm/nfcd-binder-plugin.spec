@@ -28,7 +28,7 @@ Binder-based NFC plugin for Android 8+.
 make %{_smp_mflags} \
     %{?disable_hexdump: DISABLE_HEXDUMP=1} \
     KEEP_SYMBOLS=1 \
-    release
+    debug
 
 %install
 rm -rf %{buildroot}
